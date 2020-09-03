@@ -16,8 +16,8 @@ def create_query_input(query_topico):
     final_query += query_topico["title"]
     final_query += " "
     final_query += query_topico["desc"]
-    final_query += " "
-    final_query += query_topico["narr"]
+    # final_query += " "
+    # final_query += query_topico["narr"]
 
     return final_query.replace(":", " ")
 

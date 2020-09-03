@@ -1,7 +1,7 @@
 Funções de similaridade usadas:
 
 - BM25 (Default Solr)
-    <similarityclass="solr.BM25SimilarityFactory"/>
+    <similarity class="solr.BM25SimilarityFactory"/>
 
 - DFR
     <similarity class="solr.DFRSimilarityFactory">
