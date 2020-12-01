@@ -10,3 +10,17 @@ Funções de similaridade usadas:
         <str name="normalization">H3</str>
         <float name="mu">900</float>
     </similarity> 
+
+- IBSimilarity
+    <similarity class="solr.IBSimilarityFactory">
+        <str name="distribution">LL</str>
+        <str name="lambda">DF</str>
+        <str name="normalization">H3</str>
+    </similarity>
+
+    <similarity class="solr.IBSimilarityFactory">
+        <str name="distribution">LL</str>
+        <str name="lambda">TTF</str>
+        <str name="normalization">H3</str>
+    </similarity>
+
